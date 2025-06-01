@@ -9,7 +9,7 @@
 #define PAGE_SIZE_BYTES PAGE_SIZE
 
 /*
- * Internal data structures                                                  *
+ * Internal data structures
  */
 
 /*
@@ -37,7 +37,7 @@ typedef struct FileContext {
 static FileContext *globalOpenCtx = NULL;
 
 /*
- * Forward declarations of internal helper functions                         *
+ * Forward declarations of internal helper functions
  */
 
 /* Allocate a new FileContext for a given file name and FILE* */
